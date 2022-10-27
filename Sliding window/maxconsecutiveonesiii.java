@@ -3,6 +3,10 @@ package Week2DS;
 import org.junit.Assert;
 import org.junit.Test;
 
+/*
+https://leetcode.com/problems/max-consecutive-ones-iii/
+/*
+
 public class maxconsecutiveonesiii {
 	
 
@@ -14,7 +18,14 @@ public class maxconsecutiveonesiii {
 		Assert.assertEquals(maxarray(nums, k), output);
 	}
 	
-	private int maxarray(int[] nums, int k) {
+	@Test
+	public void example2() {
+		int[] nums = {1};
+		int output =6;
+		int k =2;
+		Assert.assertEquals(maxarray(nums, k), output);
+	}
+	      --- Pseudo Code ---
 //		Initialize start and end 
 //		Initiazie min value ton get the max outomces
 //		for loop to iterate to the lenght of k-1
@@ -26,7 +37,8 @@ public class maxconsecutiveonesiii {
 //		remove the elements 
 //		get the count of outcomes
 //		increment k and start
-
+	
+	private int maxarray(int[] nums, int k) {
 		int start =0;
 		int end =0;
 		int count =0;
