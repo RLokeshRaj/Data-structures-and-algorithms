@@ -8,6 +8,11 @@ import org.junit.Test;
 public class Addingarrays {
 	
 	
+	/*
+	CW
+	/*
+	
+	// --- Pseudo Code ---
 	//Initialize array
 	//Initialize an variable and create an new in array to store the result.
 	//Open an for loop to iterate through the length of the array
