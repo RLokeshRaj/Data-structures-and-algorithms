@@ -3,11 +3,35 @@ package Week2DS;
 import org.junit.Assert;
 import org.junit.Test;
 
+
+/*
+/CW Problem
+/*
+
 public class maximumnumberofvowelsinubstring {
 	
+	
+	@Test
+	public void example1() {
+		//Positive Test Data
+		String s = "workaatech";
+		int k = 3;
+		int output = 2;
+		Assert.assertEquals(maxVowelsInASubString(s,k), output);
+	}
+	
+	@Test
+	public void edge1() {
+		//Edge Case Test Data
+		String s = "d";
+		int k = 1;
+		int output = 0;
+		Assert.assertEquals(maxVowelsInASubString(s,k), output);
+	}
+	
 
-	 public static int main(String[] args) {
-		// Covert String to char
+	        //--- Pseudo Code ---
+	        // Covert String to char
 		//Initialize sum, start, 
 		// Initialzie Value to compare the count;
 		// User for loop to iterate through the array >> K;
@@ -19,10 +43,9 @@ public class maximumnumberofvowelsinubstring {
 		// remove the start value.
 		// get the min count
 		//k ++ and start ++;
-		
-		
-		
-		String s = "workaattech";
+			
+			
+	private int maxVowelsInASubString(String s, int k) {
 		char[] arr = s.toCharArray();
 		int k =3;
 		int sum =0;
