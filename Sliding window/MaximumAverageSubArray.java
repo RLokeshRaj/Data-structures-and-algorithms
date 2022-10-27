@@ -3,6 +3,21 @@ package Week2DS;
 import org.junit.Assert;
 import org.junit.Test;
 
+/*
+//https://leetcode.com/problems/maximum-average-subarray-i
+//
+
+
+//            --- Pseudo Code ---
+// 	 * 1. Create two pointers start=0 and end=0
+// 	 * 2. Create variables vaule=Integer.MIN_VALUE and sum=0
+// 	 * 3. For first k numbers, calculate the sum
+// 	 * 4. Assign the sum to vaule
+// 	 * 5. Traverse while end <nums.length
+// 	 * 6. Add nums[right] and subtract nums[left] from sum. Increment both pointers
+// 	 * 7. Calculate the value
+// 	 * 8. Return sum/k 
+
 public class MaximumAverageSubArray {
 	
 	@Test
