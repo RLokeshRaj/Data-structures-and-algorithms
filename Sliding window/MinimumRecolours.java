@@ -3,6 +3,24 @@ package Week2DS;
 import org.junit.Assert;
 import org.junit.Test;
 
+
+/*
+//https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/
+/*
+
+//          --- Pseudo Code ---
+//       * 1. Create two pointers start=0 and end=0
+// 	 * 2. Create  and value=Integer.MAX_VALUE
+         * 3. While condition to iterate through k-1
+	 * 4. if len = W 
+// 	 * 5. For the first k elements, count the number of W blocks
+// 	 * 6. Assign minBlocks as whiteBlocks
+// 	 * 7. Traverse till end<blocks.length()
+// 	 * 8. If the character at start pointer is white, increment Start
+// 	 * 9. Find the min between whiteBlocks and value
+// 	 * 10. Return result
+	 
+
 public class MinimumRecolours {
 	
 	@Test
