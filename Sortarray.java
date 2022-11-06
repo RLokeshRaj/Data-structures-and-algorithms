@@ -30,6 +30,17 @@ public class Sortarray {
 
 	}
 	
+	//Pseudocode//
+// 	create and int varianle s temp, result
+// 	initialize and int array
+// 	iterate through outer loop to the length
+// 	iterate through inner loop to i+1
+// 		if i>J
+// 	swap the variables
+//        increment result;
+	
+	
+	
 	private int[] sortarray(int[] arr3) {
 		
 		int temp = 0;
