@@ -5,6 +5,10 @@ import org.junit.Test;
 
 public class MinimumRecolours {
 	
+	/*
+	// COlour mininmim
+	//
+	
 	@Test
 	public void positive() {
 		String blocks = "WBBWBBWW";
@@ -23,6 +27,11 @@ public class MinimumRecolours {
 	
 	
 	private int mincolor(String blocks, int k) {
+// 		Convert the strings to char array
+// 		initilaize MAX.value and two int variable start & end
+// 		while cond to go till k -1. if the charac is W
+// 		swap it and store it variable 
+// 		Increment the count.
 		
 
 		char[] arr = blocks.toCharArray();
