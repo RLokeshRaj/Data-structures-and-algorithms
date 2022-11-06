@@ -37,6 +37,8 @@ public class Movezeros {
 	//Initialize an variable and create an new in array to store the result.
 	//Open an for loop to iterate through the length of the array
      // Condition is arr not equal to 0
+     // append the array in the new array.
+// increemt result
 	
 	private int[] sortarray(int[] arr3) {
 		int result = 0;
