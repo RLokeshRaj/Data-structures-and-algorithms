@@ -6,6 +6,36 @@ import java.util.Collections;
 
 public class Intersectionarrays {
 	
+	//Leetcode #349
+	
+	@Test
+	public void example1() {
+		//Positive Test Data
+		int[] nums1 = {1,2,2,1};
+		int[] nums2 = {2,2};
+		int[] output = {2};
+		Assert.assertArrayEquals(insersectionOfArrays_UsingSet(nums1,nums2), output);
+	}
+	
+	@Test
+	public void example2() {
+		//Edge Case Test Data
+		int[] nums1 = {1,1};
+		int[] nums2 = {2,2};
+		int[] output = {};
+		Assert.assertArrayEquals(insersectionOfArrays_UsingSet(nums1,nums2), output);
+	}
+	
+	@Test
+	public void example3() {
+		//Negative Test Data
+		int[] nums1 = {1};
+		int[] nums2 = {1,1,1,1,1,1};
+		int[] output = {1};
+		Assert.assertArrayEquals(insersectionOfArrays_UsingSet(nums1,nums2), output);
+	}
+	
+	//--Pseudocode--
 	//Intialize the 2 arrays
 	// create an result variable
 	//Create output array
