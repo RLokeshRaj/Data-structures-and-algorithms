@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class sortarrayparity2 {
 
-		
+		//sortarray without inbuilt
 		
 	@Test // +ve
 	public void example1() {
@@ -29,7 +29,14 @@ public class sortarrayparity2 {
         Assert.assertArrayEquals(sortarray(arr3),new int[] {3});
 
 	} 
-		
+		//Pseudocode//
+// 	     intialize int result and int array
+// 		     interate throigh the outer loop ,if the array values are equal to %2
+// 			     store in result array increment result
+// 			     rest the result value .
+// 			     iterate through another loop if the array are not  values are equal to %2
+// 				     store in result array increment result
+// 			     rest the result value .
 		
 		private int[] sortarray(int[] arr3) {
 		int result =0;
