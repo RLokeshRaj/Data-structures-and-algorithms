@@ -1,0 +1,53 @@
+
+-----------------------------------------------------------------------------
+
+Write test enumeration for taxi booking app ola / uber:
+-Functional
+1. open the app and check whether the current location is fetched corrrect or not.
+2. Test the source location is current location or not.
+3. Test destination location previous ride destination displayed or not.
+4. Test all the type of ride displayed or not(Prime, auto, Mini, bike...)
+5. Test the ETA  and cost of each ride.
+6. Test all payment type(Credit, Debit, UPI,), Coupon, Ola Money, Wallet displayed and working or not.
+7. Test check whether confirmation from cab driver is booked
+8. Test After booking we are getting relevant details(CarNO, driver detai, ETA, OTP) in working or not.
+9. Test cancel ride is working or not.
+10.Test Invalid OTP enter into cap driver whether ride starts or not.
+11. Test the COST after start the ride.
+12. Test booking is working for others.
+13. Test source, destination field are accepting valid characters
+14. Test booking is working or not for Outstation(Other district, Other state).
+
+- UI
+    ->  Test the app in Android, MAC, Tablet.
+	->  Test map navigation and design working properly or not.
+	->  Test After closing the app, we are able to get Minimized version in home page.
+	->  Test Notification is displayed or not after booking.
+	
+- API
+    - Map Api call are working fine or not.
+    - Google Map and OLA/UPER servers calls are working propely or not.
+	- If user send multiple requedt in different device how api responds?
+	- Search API calls are woking within the raidus of current location.
+	- Check whether driver receive one request at a time.
+- DataBase:
+	
+- Security - 
+   - Booking invalid user 
+   - Data Injection .
+- Performance 
+    - Check the perfomance booking in Peak hours
+	- Check whether the application is working fine or not in low network.
+	- Check the wheter toe ride book at a same time
+	- Check the response time for booking.
+	
+
+- Accessibility
+   - Zoom in Zoom Out working fine or not
+   - Check wheteher ola app working alexa and google assistance, siri.
+- Infrastructure
+-compatibility
+	- After booking, Ola updated with latest version is working fine or not.
+	- Different android verwsion and MAC version supports OLA apps or not.
+-Levels of Test
+ -Unit
